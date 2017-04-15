@@ -16,4 +16,3 @@ _chats = defaultdict(list)
 
 @itchat.msg_register(TEXT)
 def simple_reply(msg):
-    print msg 
